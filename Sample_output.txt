@@ -1,0 +1,63 @@
+INDUSTRIAL PREDICTIVE MAINTENANCE DASHBOARD    
+====================================================
+[DATA] Successfully acquired telemetry records. Shape: (1200, 4)
+   Temperature_C  Vibration_mms  Pressure_psi  Maintenance_Required
+0      69.967142       4.387837     41.391312                     0
+1      63.617357       3.555892     45.884104                     0
+2      71.476885       4.383446     42.266600                     0
+3      80.230299       5.014947     43.641724                     0
+4      62.658466       4.273290     53.367260                     0
+
+[INFO] Training Machine Learning Model (Random Forest Classifier)...
+[SUCCESS] Model trained successfully with Accuracy: 99.58%
+
+--- Model Classification Report ---
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       238
+           1       1.00      0.50      0.67         2
+
+    accuracy                           1.00       240
+   macro avg       1.00      0.75      0.83       240
+weighted avg       1.00      1.00      1.00       240
+
+
+--- Live Diagnostics for Machine ID: MC_098 ---
+Current Metrics -> Temp: 62.4°C | Vibration: 3.8 mm/s | Pressure: 46.1 psi
+ [STATUS] System Normal. Failure Probability: 0.0%. No anomaly flags.
+
+--- Live Diagnostics for Machine ID: MC_098 ---
+Current Metrics -> Temp: 86.5°C | Vibration: 7.1 mm/s | Pressure: 42.0 psi
+ [STATUS] System Normal. Failure Probability: 7.0%. No anomaly flags.
+
+ INDUSTRIAL PREDICTIVE MAINTENANCE DASHBOARD    
+====================================================
+[DATA] Successfully acquired telemetry records. Shape: (1200, 4)
+   Temperature_C  Vibration_mms  Pressure_psi  Maintenance_Required
+0      69.967142       4.387837     41.391312                     0
+1      63.617357       3.555892     45.884104                     0
+2      71.476885       4.383446     42.266600                     0
+3      80.230299       5.014947     43.641724                     0
+4      62.658466       4.273290     53.367260                     0
+
+[INFO] Training Machine Learning Model (Random Forest Classifier)...
+[SUCCESS] Model trained successfully with Accuracy: 99.58%
+
+--- Model Classification Report ---
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       238
+           1       1.00      0.50      0.67         2
+
+    accuracy                           1.00       240
+   macro avg       1.00      0.75      0.83       240
+weighted avg       1.00      1.00      1.00       240
+
+
+--- Live Diagnostics for Machine ID: MC_098 ---
+Current Metrics -> Temp: 62.4°C | Vibration: 3.8 mm/s | Pressure: 46.1 psi
+ [STATUS] System Normal. Failure Probability: 0.0%. No anomaly flags.
+
+--- Live Diagnostics for Machine ID: MC_098 ---
+Current Metrics -> Temp: 86.5°C | Vibration: 7.1 mm/s | Pressure: 42.0 psi
+ [STATUS] System Normal. Failure Probability: 7.0%. No anomaly flags.
